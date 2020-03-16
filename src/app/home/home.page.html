@@ -1,11 +1,30 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      <h2>Card game</h2>
     </ion-title>
+      <ion-chip slot="end" color="secondary">{{foundPairs}}</ion-chip>
+      <ion-button slot="start" routerLink="/settings">
+      <ion-icon name="settings"></ion-icon>
+    </ion-button>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  
+  <ion-grid class="back">
+    <ion-row>
+      <ion-col [size]="cardColumnSize" *ngFor="let card of cardDeck">
+        <ion-img src="/assets/{{card.revealed? 'cards/' + card.image: 'question-mark.png'}}" class="card"
+          (click)="pickCard(card)"></ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-button expand="block" color="success" *ngIf="foundPairs == numberOfCards" (click)="playAgain()">Rejouer
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

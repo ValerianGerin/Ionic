@@ -1,0 +1,448 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200203.121449.9924.0.001.json",
+    "dumpEventTime": "2020-02-03T12:14:49Z",
+    "dumpEventTimeStamp": "1580728489714",
+    "processId": 9924,
+    "cwd": "D:\\Visualstudiocode\\projets-ionic\\Card-game",
+    "commandLine": [
+      "C:\\node.exe",
+      "D:\\Visualstudiocode\\projets-ionic\\Card-game\\node_modules\\@ngtools\\webpack\\src\\type_checker_worker.js",
+      "9d93e901-158a-4cf9-ba1b-2f0582ffcfeb"
+    ],
+    "nodejsVersion": "v12.14.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 1792906,
+        "nice": 0,
+        "sys": 1828781,
+        "idle": 18038921,
+        "irq": 112328
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 1394140,
+        "nice": 0,
+        "sys": 845484,
+        "idle": 19420828,
+        "irq": 6656
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 2456640,
+        "nice": 0,
+        "sys": 1581140,
+        "idle": 17622671,
+        "irq": 13109
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 1420765,
+        "nice": 0,
+        "sys": 1028750,
+        "idle": 19210937,
+        "irq": 7125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 2022578,
+        "nice": 0,
+        "sys": 1294484,
+        "idle": 18343390,
+        "irq": 13578
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 1331953,
+        "nice": 0,
+        "sys": 1064875,
+        "idle": 19263625,
+        "irq": 9000
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 2124453,
+        "nice": 0,
+        "sys": 1159453,
+        "idle": 18376546,
+        "irq": 10781
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 1462328,
+        "nice": 0,
+        "sys": 1375265,
+        "idle": 18822859,
+        "irq": 7421
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "f8:b1:56:de:1f:dd",
+        "address": "fe80::45fe:c73c:f64e:cd42",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 9
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "f8:b1:56:de:1f:dd",
+        "address": "10.145.24.59",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "Orleans-6J1S212"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff643711759",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643715b7c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643714b38",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64380433b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff644008c5e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643ff0ca1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643ebe56c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643e9a563",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643e9885b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643ec3edd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643ec5be4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643ebbcd3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643eba4a4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643edb775",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff643c478d7",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64443463d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000015e5a1c59e1",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 233263104,
+    "totalCommittedMemory": 233263104,
+    "usedMemory": 152623928,
+    "availableMemory": 2000280472,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 70800,
+        "available": 16689008
+      },
+      "old_space": {
+        "memorySize": 158969856,
+        "committedMemory": 158969856,
+        "capacity": 116167728,
+        "used": 115952848,
+        "available": 214880
+      },
+      "code_space": {
+        "memorySize": 3571712,
+        "committedMemory": 3571712,
+        "capacity": 2112800,
+        "used": 2112800,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 3149824,
+        "committedMemory": 3149824,
+        "capacity": 872320,
+        "used": 872320,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 33386496,
+        "committedMemory": 33386496,
+        "capacity": 33274128,
+        "used": 33274128,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 368640,
+        "committedMemory": 368640,
+        "capacity": 308736,
+        "used": 308736,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 365.812,
+    "kernelCpuSeconds": 6.515,
+    "cpuConsumptionPercent": 8.34627,
+    "maxRss": 733970432,
+    "pageFaults": {
+      "IORequired": 1702337,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 3827,
+      "writes": 127
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\",
+    "aclocal_path": "D:\\Git\\mingw64\\share\\aclocal;D:\\Git\\usr\\share\\aclocal",
+    "allusersprofile": "C:\\ProgramData",
+    "appdata": "C:\\Users\\Administrateur\\AppData\\Roaming",
+    "commonprogramfiles": "C:\\Program Files\\Common Files",
+    "commonprogramfiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "commonprogramw6432": "C:\\Program Files\\Common Files",
+    "computername": "ORLEANS-6J1S212",
+    "comspec": "C:\\windows\\system32\\cmd.exe",
+    "config_site": "D:/Git/mingw64/etc/config.site",
+    "dashlane_dll_dir": "C:\\Users\\Administrateur\\AppData\\Roaming\\Dashlane\\6.1950.0.28527\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\Administrateur\\AppData\\Roaming\\Dashlane\\6.1950.0.28527\\ucrt;C:\\Users\\Administrateur\\AppData\\Roaming\\Dashlane\\6.1950.0.28527\\bin\\Qt;C:\\Users\\Administrateur\\AppData\\Roaming\\Dashlane\\6.1950.0.28527\\ucrt;C:\\Users\\Administrateur\\AppData\\Roaming\\Dashlane\\6.1950.0.28527\\bin\\Ssl",
+    "display": "needs-to-be-defined",
+    "dp0": "D:\\Visualstudiocode\\projets-ionic\\Card-game\\node_modules\\.bin\\",
+    "driverdata": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "exepath": "D:\\Git",
+    "force_color": "0",
+    "fps_browser_app_profile_string": "Internet Explorer",
+    "fps_browser_user_profile_string": "Default",
+    "google_api_key": "no",
+    "google_default_client_id": "no",
+    "google_default_client_secret": "no",
+    "home": "C:\\Users\\Administrateur",
+    "homedrive": "C:",
+    "homepath": "\\Users\\Administrateur",
+    "hostname": "Orleans-6J1S212",
+    "infopath": "D:\\Git\\usr\\local\\info;D:\\Git\\usr\\share\\info;D:\\Git\\usr\\info;D:\\Git\\share\\info",
+    "ionic_cli_bin": "C:\\Users\\Administrateur\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic",
+    "ionic_cli_lib": "C:\\Users\\Administrateur\\AppData\\Roaming\\npm\\node_modules\\ionic",
+    "ionic_cli_local_error": "LOCAL_CLI_NOT_FOUND",
+    "lang": "fr_FR.UTF-8",
+    "localappdata": "C:\\Users\\Administrateur\\AppData\\Local",
+    "logonserver": "\\\\ORLEANS-6J1S212",
+    "manpath": "D:\\Git\\mingw64\\local\\man;D:\\Git\\mingw64\\share\\man;D:\\Git\\usr\\local\\man;D:\\Git\\usr\\share\\man;D:\\Git\\usr\\man;D:\\Git\\share\\man",
+    "mingw_chost": "x86_64-w64-mingw32",
+    "mingw_package_prefix": "mingw-w64-x86_64",
+    "mingw_prefix": "D:/Git/mingw64",
+    "msystem": "MINGW64",
+    "msystem_carch": "x86_64",
+    "msystem_chost": "x86_64-w64-mingw32",
+    "msystem_prefix": "D:/Git/mingw64",
+    "number_of_processors": "8",
+    "oldpwd": "D:/Visualstudiocode/projets-ionic",
+    "onedrive": "C:\\Users\\Administrateur\\OneDrive",
+    "original_path": "D:\\Git\\mingw64\\bin;D:\\Git\\usr\\bin;C:\\Users\\Administrateur\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0;C:\\windows\\System32\\OpenSSH;C:\\Nouveau dossier\\command;D:\\Git\\cmd;C:\\;C:\\Users\\Administrateur\\AppData\\Local\\Microsoft\\WindowsApps;%DASHLANE_DLL_DIR%;D:\\Visual studio code\\Microsoft VS Code\\bin;C:\\Users\\Administrateur\\AppData\\Roaming\\npm",
+    "original_temp": "C:/Users/ADMINI~1/AppData/Local/Temp",
+    "original_tmp": "C:/Users/ADMINI~1/AppData/Local/Temp",
+    "os": "Windows_NT",
+    "path": "D:\\Visualstudiocode\\projets-ionic\\Card-game\\node_modules\\.bin;C:\\Users\\Administrateur\\bin;D:\\Git\\mingw64\\bin;D:\\Git\\usr\\local\\bin;D:\\Git\\usr\\bin;D:\\Git\\usr\\bin;D:\\Git\\mingw64\\bin;D:\\Git\\usr\\bin;C:\\Users\\Administrateur\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0;C:\\windows\\System32\\OpenSSH;C:\\Nouveau dossier\\command;D:\\Git\\cmd;C:\\;C:\\Users\\Administrateur\\AppData\\Local\\Microsoft\\WindowsApps;%DASHLANE_DLL_DIR%;D:\\Visual studio code\\Microsoft VS Code\\bin;C:\\Users\\Administrateur\\AppData\\Roaming\\npm;D:\\Git\\usr\\bin\\vendor_perl;D:\\Git\\usr\\bin\\core_perl",
+    "pathext": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "pkg_config_path": "D:\\Git\\mingw64\\lib\\pkgconfig;D:\\Git\\mingw64\\share\\pkgconfig",
+    "plink_protocol": "ssh",
+    "processor_architecture": "AMD64",
+    "processor_identifier": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+    "processor_level": "6",
+    "processor_revision": "3a09",
+    "programdata": "C:\\ProgramData",
+    "programfiles": "C:\\Program Files",
+    "programfiles(x86)": "C:\\Program Files (x86)",
+    "programw6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "psmodulepath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "public": "C:\\Users\\Public",
+    "pwd": "D:/Visualstudiocode/projets-ionic/Card-game",
+    "sessionname": "Console",
+    "shell": "D:\\Git\\usr\\bin\\bash.exe",
+    "shlvl": "2",
+    "ssh_askpass": "D:/Git/mingw64/libexec/git-core/git-gui--askpass",
+    "systemdrive": "C:",
+    "systemroot": "C:\\windows",
+    "temp": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp",
+    "term": "xterm",
+    "tmp": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp",
+    "tmpdir": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp",
+    "userdomain": "ORLEANS-6J1S212",
+    "userdomain_roamingprofile": "ORLEANS-6J1S212",
+    "username": "Administrateur",
+    "userprofile": "C:\\Users\\Administrateur",
+    "WEBPACK_DEV_SERVER": "true",
+    "windir": "C:\\windows",
+    "_": "C:/node",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\node.exe",
+    "C:\\windows\\SYSTEM32\\ntdll.dll",
+    "C:\\windows\\System32\\KERNEL32.DLL",
+    "C:\\windows\\System32\\KERNELBASE.dll",
+    "C:\\windows\\System32\\WS2_32.dll",
+    "C:\\windows\\System32\\RPCRT4.dll",
+    "C:\\windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\windows\\System32\\ADVAPI32.dll",
+    "C:\\windows\\System32\\ucrtbase.dll",
+    "C:\\windows\\System32\\msvcrt.dll",
+    "C:\\windows\\System32\\sechost.dll",
+    "C:\\windows\\System32\\USER32.dll",
+    "C:\\windows\\System32\\win32u.dll",
+    "C:\\windows\\System32\\GDI32.dll",
+    "C:\\windows\\System32\\gdi32full.dll",
+    "C:\\windows\\System32\\msvcp_win.dll",
+    "C:\\windows\\System32\\PSAPI.DLL",
+    "C:\\windows\\System32\\CRYPT32.dll",
+    "C:\\windows\\System32\\MSASN1.dll",
+    "C:\\windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\windows\\System32\\bcrypt.dll",
+    "C:\\windows\\SYSTEM32\\USERENV.dll",
+    "C:\\windows\\System32\\profapi.dll",
+    "C:\\windows\\SYSTEM32\\WINMM.dll",
+    "C:\\windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\windows\\System32\\cfgmgr32.dll",
+    "C:\\windows\\System32\\bcryptPrimitives.dll",
+    "C:\\windows\\System32\\IMM32.DLL",
+    "C:\\windows\\System32\\powrprof.dll",
+    "C:\\windows\\System32\\UMPDC.dll",
+    "C:\\windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\windows\\system32\\uxtheme.dll",
+    "C:\\windows\\System32\\combase.dll",
+    "C:\\windows\\system32\\mswsock.dll",
+    "C:\\windows\\System32\\kernel.appcore.dll",
+    "C:\\windows\\System32\\NSI.dll",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\windows\\system32\\napinsp.dll",
+    "C:\\windows\\system32\\pnrpnsp.dll",
+    "C:\\windows\\System32\\winrnr.dll",
+    "C:\\windows\\system32\\NLAapi.dll",
+    "C:\\windows\\system32\\wshbth.dll"
+  ]
+}
